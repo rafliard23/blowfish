@@ -1,7 +1,20 @@
-# Hugo and Blowfish
+## Custom ignore dirs and files list for personal fork
+# Dirs
+exampleSite/
+images/
+assets/img/
+static/
+
+# Files
+./netlify.toml
+./blowfish_logo.png
+./logo.png
+
+# --- End of custom ignore dirs and files for personal fork ---
+
+# Hugo and Blowfish 
 public/
 resources/
-exampleSite/resources/
 
 # Binaries for programs and plugins
 *.exe
