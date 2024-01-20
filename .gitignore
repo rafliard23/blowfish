@@ -41,4 +41,9 @@ node_modules
 .DS_Store?
 ._*
 .Spotlight-V100
+<<<<<<< HEAD
 .Trashes
+=======
+.Trashes
+.idea
+>>>>>>> upstream/main
