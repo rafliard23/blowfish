@@ -7,8 +7,8 @@ function _getDefaultPackeryOptions() {
 }
 
 (function init() {
-    window.addEventListener("DOMContentLoaded", (event) => {
-        console.groupCollapsed('[DEBUG] Gallery feature enable');
+
+    $(window).on("load", function () {
         let packeries = [];
         let nodeGalleries = document.querySelectorAll('.gallery');
 
@@ -17,8 +17,6 @@ function _getDefaultPackeryOptions() {
             let packery = new Packery(nodeGallery, _getDefaultPackeryOptions());
             packeries.push(packery);
         });
-
-        console.log("Galleries founded and initialized with packery", packeries);
         console.groupEnd();
     });
 })();

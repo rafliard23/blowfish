@@ -47,3 +47,5 @@ node_modules
 .Trashes
 .idea
 >>>>>>> upstream/main
+.Ulysses-Group.plist
+.Ulysses-Settings.plist
