@@ -9,6 +9,10 @@ static/
 ./netlify.toml
 ./blowfish_logo.png
 ./logo.png
+.github/workflows/build.yml
+.github/workflows/pages.yml
+.github/workflows/stale.yml
+.github/workflows/test.yml
 
 # --- End of custom ignore dirs and files for personal fork ---
 
